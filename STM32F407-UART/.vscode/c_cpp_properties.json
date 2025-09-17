@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "stm32f407",
+            "includePath": [
+            "app/inc",
+            "app/commands",
+            "driver/console",
+            "firmware/cmsis/core",
+            "firmware/cmsis/device",
+            "firmware/driver/inc",
+            "third_lib/shell",
+            "third_lib/ringbuffer",
+            "third_lib/tslf"
+            ],
+            "defines": [
+            "USE_STDPERIPH_DRIVER",
+            "STM32F40_41xxx",
+            "HSE_VALUE=8000000"
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-gcc-arm"
+        }
+    ],
+    "version": 4
+}

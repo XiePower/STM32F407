@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "stm32f4xx.h": "c",
+        "cstdint": "c",
+        "string.h": "c",
+        "ranges": "c",
+        "main.h": "c",
+        "string_view": "c",
+        "ringbuffer8.h": "c",
+        "shell.h": "c",
+        "console_uart.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}
